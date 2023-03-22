@@ -1,0 +1,20 @@
+.container {
+  width: 15rem;
+  height: calc(100vh - 4rem);
+  padding:  0rem 1.8rem;
+  background-color: red;
+  position: fixed;
+}
+
+.links {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  padding: 0.8rem 0;
+}
+
+.links p {
+  font-weight: lighter;
+}
