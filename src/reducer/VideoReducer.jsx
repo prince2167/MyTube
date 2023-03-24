@@ -23,7 +23,7 @@ const videoReducer = (state, action) => {
     case "FETCH_SUCESSFUL": {
       return {
         ...state,
-        videos: [action.payload],
+        videos: action.payload,
         isLoading: false,
       };
     }
