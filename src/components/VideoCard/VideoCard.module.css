@@ -1,0 +1,10 @@
+.cardContainer {
+  width: 380px;
+  /* background-color: green; */
+  color: black;
+}
+
+.thumbnail{
+    object-fit: cover;
+    width: 380px;
+}
