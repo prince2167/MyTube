@@ -7,8 +7,9 @@ import {
   Trending,
   WatchLater,
   MyPlayList,
-  watchpage,
+  // watchpage,
 } from "./Pages/index";
+import WatchPage from "./Pages/WatchPage/WatchPage";
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,7 @@ function App() {
           <Route path="history" element={<History />} />
           <Route path="myPlayList" element={<MyPlayList />} />
           <Route path="likedVideos" element={<LikedVideo />} />
-          {/* <Route path="watchPage/:id" element={<WatchPage />} /> */}
+          <Route path="watch-page/:id" element={<WatchPage />} />
         </Route>
       </Routes>
     </div>
