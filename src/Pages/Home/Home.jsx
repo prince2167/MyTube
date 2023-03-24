@@ -1,9 +1,20 @@
-import React from 'react'
-
+import React from "react";
+import { Link, useParams } from "react-router-dom";
+import { VideoCard } from "../../components/index";
+import { useVideo } from "../../contexts";
+import classes from "./Home.module.css"
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  const { videos } = useVideo();
 
-export default Home
+  return (
+    <div className={classes.homeContainer} >
+      {videos.map((video) => (
+        <Link to={`watch-page/${video.id}`}>
+          <VideoCard key={video.id} video={video} />
+        </Link>
+      ))}
+    </div>
+  );
+};
+
+export default Home;
