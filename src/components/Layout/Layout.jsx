@@ -12,7 +12,7 @@ const Layout = () => {
       <Navbar />
       <div className={classes.layout}>
         {isMenuOpen && <Sidebar />}
-        <main style={{ margin: "1rem 0 0 16rem" }}>
+        <main className={isMenuOpen ? classes.main : classes.main2}>
           <Outlet />
         </main>
       </div>
