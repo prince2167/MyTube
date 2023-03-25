@@ -1,10 +1,25 @@
 .cardContainer {
-  width: 380px;
+  width: 340px;
   /* background-color: green; */
   color: black;
+
+  height: 100%;
+}
+.cardContainer2 {
+  width: 390px;
+  /* background-color: green; */
+  color: black;
+
+  height: 100%;
 }
 
-.thumbnail{
-    object-fit: cover;
-    width: 380px;
+.thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+.cardDescription{
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
