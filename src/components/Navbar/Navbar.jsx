@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useVideo } from "../../contexts/index";
 const Navbar = () => {
   const { dispatch } = useVideo();
+ 
   const menuHandler = () => {
     dispatch({ type: "MENU_OPEN" });
   };
@@ -15,7 +16,7 @@ const Navbar = () => {
           <HiOutlineMenu size="25" />
         </button>
 
-        <Link className={classes.logo}>
+        <Link to="/" className={classes.logo}>
           <AiFillYoutube size="30" color="#ff3b30" />
           <h3>MyTube</h3>
         </Link>
