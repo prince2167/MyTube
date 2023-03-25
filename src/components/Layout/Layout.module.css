@@ -1,6 +1,9 @@
 .layout {
-    display: flex;
-    /* justify-content: space-between; */
-    /* margin-top: 3rem; */
-  }
-  
+  display: flex;
+}
+.main {
+  margin: 1rem 0 0 14rem;
+}
+.main2{
+  margin: 1rem 0 0 0;
+}
