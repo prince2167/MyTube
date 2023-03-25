@@ -13,6 +13,18 @@ const videoReducer = (state, action) => {
         isMenuOpen: !state.isMenuOpen,
       };
     }
+    case "MENU_ALWAYS_OPEN": {
+      return {
+        ...state,
+        isMenuOpen: true,
+      };
+    }
+    case "MENU_CLOSED": {
+      return {
+        ...state,
+        isMenuOpen: false,
+      };
+    }
 
     case "FETCH_START": {
       return {

@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useReducer } from "react";
 import { initialState, videoReducer } from "../reducer/index";
 
 const API_KEY = " AIzaSyBOe0eS_jqKfpJtOdg8zH5RfUYSDlWR_1k";
-const url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=${API_KEY}`;
+const url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=${API_KEY}`;
 const VideoContext = createContext();
 
 const VideoProvider = ({ children }) => {
