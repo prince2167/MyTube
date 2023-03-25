@@ -4,3 +4,8 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.cardLink{
+    text-decoration: none;
+    /* background-color: red; */
+    margin-bottom: 1rem;
+}
