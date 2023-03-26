@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.searchInput {
+  padding: 0.6rem 1.1rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: solid 1px #94a3b8;
+  border-right: none;
+  width: 20rem;
+  outline: none;
+}
+.searchButton {
+  padding: 0.5rem 1rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #ff3b30;
+  border: none;
+  color: white;
+  border-left: none;
+  cursor: pointer;
+}
