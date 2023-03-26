@@ -1,8 +1,21 @@
 import { HiOutlineMenu } from "react-icons/hi";
-import { AiFillYoutube, AiOutlineLike } from "react-icons/ai";
+import {
+  AiFillYoutube,
+  AiOutlineLike,
+  AiFillLike,
+  AiOutlineDislike,
+  AiOutlineHeart,
+  AiFillHeart,
+} from "react-icons/ai";
 import { BsFire } from "react-icons/bs";
-import { MdOutlineWatchLater, MdOutlinePlaylistAddCheck } from "react-icons/md";
+import {
+  MdOutlineWatchLater,
+  MdOutlinePlaylistAddCheck,
+  MdPlaylistAddCheck,
+} from "react-icons/md";
 import { GrHistory, GrHomeRounded } from "react-icons/gr";
+import { CiSearch } from "react-icons/ci";
+
 export {
   HiOutlineMenu,
   AiFillYoutube,
@@ -12,6 +25,10 @@ export {
   MdOutlinePlaylistAddCheck,
   GrHistory,
   GrHomeRounded,
+  CiSearch,
+  AiFillLike,
+  AiOutlineDislike,
+  AiOutlineHeart,
+  AiFillHeart,
+  MdPlaylistAddCheck,
 };
-
-
